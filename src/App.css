@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f7fff7;
+}
+
+/* Mobile design */
+
+@media(max-width: 850px){
+    .items{
+        width: 100px;
+        transform: translateX(-400px);
+    }
+}
